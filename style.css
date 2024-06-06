@@ -4,3 +4,77 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #26355d;
+}
+
+#logo {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.palindrome-div {
+    width: min(100vw, 450px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    background: #f59312;
+}
+
+label {
+    display: block;
+    color: #272727;
+    margin-bottom: 24px;
+}
+
+#text-input {
+    min-height: 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+#text-input:focus {
+    border: 2px solid #555;
+}
+
+#check-btn {
+    min-width: 80px;
+    min-height: 40px;
+    margin-left: 16px;
+    padding: 8px;
+    background: #af47d2;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#check-btn:hover {
+    cursor: pointer;
+    background: #8e39aa;
+}
