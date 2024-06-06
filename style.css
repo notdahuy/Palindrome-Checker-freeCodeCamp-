@@ -21,6 +21,7 @@ body {
 
 #logo {
     font-size: 32px;
+    font-weight: 300;
     margin-bottom: 24px;
 }
 
@@ -51,7 +52,6 @@ label {
 #text-input {
     min-height: 40px;
     padding: 8px;
-    border: none;
     border-radius: 8px;
     outline: none;
     border: 2px solid transparent;
@@ -77,4 +77,14 @@ label {
 #check-btn:hover {
     cursor: pointer;
     background: #8e39aa;
+}
+
+.result-div {
+    margin-top: 24px;
+    color: #272727;
+    font-size: 24px;
+}
+
+.hidden {
+    display: none;
 }
